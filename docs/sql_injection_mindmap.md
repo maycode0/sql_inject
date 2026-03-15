@@ -219,7 +219,7 @@ SQL 注入
 
 对应文件：
 
-- `docs/sql_injection_demo.py`
+- `ai_coding/sql_injection_demo.py`
 
 ---
 

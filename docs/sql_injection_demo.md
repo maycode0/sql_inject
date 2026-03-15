@@ -30,7 +30,7 @@
 
 ## 3. 可直接运行的 Python 示例
 
-当前项目中已经提供了可直接运行的文件：`docs/sql_injection_demo.py`
+当前项目中已经提供了可直接运行的文件：`ai_coding/sql_injection_demo.py`
 
 如果你只是学习，直接运行这个文件即可；下面同时附上完整代码，方便阅读。
 
@@ -161,13 +161,13 @@ if __name__ == "__main__":
 ## 4. 运行方式
 
 ```bash
-python docs/sql_injection_demo.py
+python ai_coding/sql_injection_demo.py
 ```
 
 如果你的环境中 `python` 命令不可用，也可以尝试：
 
 ```bash
-py docs/sql_injection_demo.py
+py ai_coding/sql_injection_demo.py
 ```
 
 ---

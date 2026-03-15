@@ -52,7 +52,7 @@ SQL 注入基础原理、风险识别与安全防御。
 ### 3.1 教师准备内容
 
 - 阅读 `docs/sql_injection_handbook.md`
-- 熟悉 `docs/sql_injection_demo.py`
+- 熟悉 `ai_coding/sql_injection_demo.py`
 - 准备好 `docs/sql_injection_exercises.md`
 - 准备好 `docs/sql_injection_mindmap.md`
 
@@ -66,7 +66,7 @@ SQL 注入基础原理、风险识别与安全防御。
 ### 3.3 课堂材料
 
 - 主讲手册：`docs/sql_injection_handbook.md`
-- 演示代码：`docs/sql_injection_demo.py`
+- 演示代码：`ai_coding/sql_injection_demo.py`
 - 演示说明：`docs/sql_injection_demo.md`
 - 练习材料：`docs/sql_injection_exercises.md`
 - 复习材料：`docs/sql_injection_mindmap.md`
@@ -216,7 +216,7 @@ query = f"SELECT id, username FROM users ORDER BY {safe_field}"
 
 使用文件：
 
-- `docs/sql_injection_demo.py`
+- `ai_coding/sql_injection_demo.py`
 
 演示步骤：
 
@@ -229,13 +229,13 @@ query = f"SELECT id, username FROM users ORDER BY {safe_field}"
 运行命令：
 
 ```bash
-python docs/sql_injection_demo.py
+python ai_coding/sql_injection_demo.py
 ```
 
 或：
 
 ```bash
-py docs/sql_injection_demo.py
+py ai_coding/sql_injection_demo.py
 ```
 
 教师讲解重点：
@@ -331,7 +331,7 @@ py docs/sql_injection_demo.py
 
 ### 作业 2
 
-运行 `docs/sql_injection_demo.py`，观察输出，并回答：
+运行 `ai_coding/sql_injection_demo.py`，观察输出，并回答：
 
 - 为什么登录场景适合参数化
 - 为什么排序场景适合白名单
@@ -379,6 +379,6 @@ py docs/sql_injection_demo.py
 - `docs/sql_injection_learning.md`
 - `docs/sql_injection_study_plan.md`
 - `docs/sql_injection_demo.md`
-- `docs/sql_injection_demo.py`
+- `ai_coding/sql_injection_demo.py`
 - `docs/sql_injection_exercises.md`
 - `docs/sql_injection_mindmap.md`

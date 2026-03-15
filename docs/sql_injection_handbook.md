@@ -269,7 +269,7 @@ SELECT * FROM users WHERE username = ? AND password = ?
 
 ### 10.2 演示代码
 
-可直接运行的代码文件：`docs/sql_injection_demo.py`
+可直接运行的代码文件：`ai_coding/sql_injection_demo.py`
 
 这个演示现在包含两类教学场景：
 
@@ -403,13 +403,13 @@ if __name__ == "__main__":
 ### 10.3 运行方式
 
 ```bash
-python docs/sql_injection_demo.py
+python ai_coding/sql_injection_demo.py
 ```
 
 如果你的环境中 `python` 不可用，也可以尝试：
 
 ```bash
-py docs/sql_injection_demo.py
+py ai_coding/sql_injection_demo.py
 ```
 
 ### 10.4 观察重点
@@ -432,7 +432,7 @@ py docs/sql_injection_demo.py
 
 - 学习 SQL 基础查询
 - 阅读本手册前半部分
-- 运行 `docs/sql_injection_demo.py`
+- 运行 `ai_coding/sql_injection_demo.py`
 - 看懂拼接式 SQL 与参数化 SQL 的区别
 
 ### 第 2 周
